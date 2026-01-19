@@ -1,22 +1,27 @@
-# For Loop
-# for number in range(1, 11, 1):
-#     # print(number)
-#     if number == 4:
-#         break
-#         # continue
-#     print(number)
+# Looping (for)
+# for i in range(1, 11, 5):
+#     print(i)
+
+# for i in range(1, 11, 1):
+#     # print(i)
+#     if i == 6:
+#         # break # stop
+#         continue # skip
+#     print(i)
 # else:
-#     print("The For Loop is Finished.")
+#     print("The for loop is finished.")
 
-# List For Loop
+fruits = ["apple", "banana", "cherry"]
 
-fruits = ["Apple", "Banana", "Cherry"]
+# i = 0
 
-for fruit in fruits:
-    # print(fruit)
-    if fruit == "Banana":
-        # break
-        continue
-    print(fruit)
-else:
-    print("The For Loop is Finished nothing else in the list.")
+# length - len()
+# while i < len(fruits):
+#     print(fruits[i])
+#     i += 1
+
+for x in fruits:
+    # if x == "banana":
+    #     # break # Stop
+    #     continue # Skip
+    print(x)
